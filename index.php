@@ -55,14 +55,14 @@ mysqli_set_charset($conn,"utf8");
         <div class="side">
             <center>
             <h3>الكاتب :</h3>
-            <img src="Images/Img.jpg" alt="صورة الكاتب" width="100px" height="100px">
+            <img src="Img.jpg" alt="صورة الكاتب" width="100px" height="100px">
             <p>بعض الملومات عن الكاتب ...</p><br /><hr /><br />
             <h3>مواضيع ذات صله :</h3>
-            <img src="Images/Img1.jpg" alt="logo" width="100px">
+            <img src="Img1.jpg" alt="logo" width="100px">
             <h6>عنوان الموضوع</h6><hr style="width: 50%;"/>
-            <img src="Images/Img2.jpg" alt="logo" width="100px">
+            <img src="Img2.jpg" alt="logo" width="100px">
             <h6>عنوان الموضوع</h6><hr style="width: 50%;"/>
-            <img src="Images/Img3.jpg" alt="logo" width="100px">
+            <img src="Img3.jpg" alt="logo" width="100px">
             <h6>عنوان الموضوع</h6><br /><hr /><br />
             <h3> الإعلانات :</h3>
             </center>
@@ -73,7 +73,7 @@ mysqli_set_charset($conn,"utf8");
             <?php   while($row = mysqli_fetch_array($result)){ ?>
 
             <div class="topic">
-                <img src="Images/Img2.jpg" alt="صورة الموضوع" class="image">
+                <img src="Img2.jpg" alt="صورة الموضوع" class="image">
                 <div class="text">
                     <h2 class="arabic"><?php echo $row["title"] ?></h2>
                     <h5 class="arabic"><?php echo $row["date"] ?></h5>
