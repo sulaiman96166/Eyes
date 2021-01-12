@@ -92,10 +92,10 @@ mysqli_set_charset($conn,"utf8");
     <footer>
         <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
             <ul class="navbar-nav sticky-top mr-auto">
-                <li class="nav-item"><a class="nav-link" href="www.twitter.com"><img src="Images/twitter.png" alt="logo" style="width:10%;"> تويتر</a></li>
-                <li class="nav-item"><a class="nav-link" href="www.facebook.com"><img src="Images/facebook.png" alt="logo" style="width:10%;"> فيسبوك</a></li>
-                <li class="nav-item"><a class="nav-link" href="www.instagram.com"><img src="Images/instagram.png" alt="logo" style="width:10%;"> انستقرام</a></li>
-                <li class="nav-item"><a class="nav-link" href="www.google.com"><img src="Images/google.png" alt="logo" style="width:10%;"> +جوجل</a></li>
+                <li class="nav-item"><a class="nav-link" href="www.twitter.com"><img src="twitter.png" alt="logo" style="width:10%;"> تويتر</a></li>
+                <li class="nav-item"><a class="nav-link" href="www.facebook.com"><img src="facebook.png" alt="logo" style="width:10%;"> فيسبوك</a></li>
+                <li class="nav-item"><a class="nav-link" href="www.instagram.com"><img src="instagram.png" alt="logo" style="width:10%;"> انستقرام</a></li>
+                <li class="nav-item"><a class="nav-link" href="www.google.com"><img src="google.png" alt="logo" style="width:10%;"> +جوجل</a></li>
             </ul>
         </nav>
         <div style="color:rgb(139, 139, 139); background-color:rgb(39, 39, 39); text-align: center;">
